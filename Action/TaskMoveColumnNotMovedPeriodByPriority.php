@@ -8,7 +8,7 @@ use Kanboard\Model\TaskModel;
  * Move a task to another column when not moved during a given period
  *
  * @package Kanboard\Action
- * @author  Frederic Guillot
+ * @author  Lasse Faber
  */
 class TaskMoveColumnNotMovedPeriodByPriority extends Base
 {
