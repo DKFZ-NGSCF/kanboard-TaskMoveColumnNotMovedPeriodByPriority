@@ -2,7 +2,7 @@
 
 This plugin adds a new automatic action to Kanboard.
 
-This action will move a task with a given priority after it hasn't been moved in a column for n days.
+This action will move a task with a given priority from column A to column B after it hasn't been moved for n days.
 
 ## Author
 
@@ -11,5 +11,5 @@ This action will move a task with a given priority after it hasn't been moved in
 
 ## Installation
 
-- Create a directory AutomaticAction under the folder plugins
-- Copy all source files in this new directory
+- Download the repository to your kanboard/plugins directory.
+- (Optional) Rename directory to TaskMoveColumnNotMovedPeriodByPriority
