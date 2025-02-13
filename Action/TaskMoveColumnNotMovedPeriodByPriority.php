@@ -1,8 +1,9 @@
 <?php
 
-namespace Kanboard\Action;
+namespace Kanboard\Plugin\TaskMoveColumnNotMovedPeriodByPriority\Action;
 
 use Kanboard\Model\TaskModel;
+use Kanboard\Action\Base;
 
 /**
  * Move a task to another column when not moved during a given period
@@ -20,7 +21,7 @@ class TaskMoveColumnNotMovedPeriodByPriority extends Base
      */
     public function getDescription()
     {
-        return t('Move the task to another column when not moved during a given period for a certain priority.');
+        return t('Move the task to another column when not moved during a given period based on priority');
     }
 
     /**
